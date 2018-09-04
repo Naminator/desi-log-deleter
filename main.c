@@ -59,7 +59,10 @@ const char * keywords[] = {
     "updateAgentEarnings", "calculateProfits", "makeAffStatTables", "updateAffiliateEarnings", "deleteOldSortOrders", "notifySvetlio",
     "setStatusForExpiredTickets", "cleanExpiredHashCodes", "parseHtmlVsichkiOferti", "notifyVoucherExpires", "changeOfferActivity",
     "markExpiringOffersWithLabels", "resetOffer", "updateDailyOfferStats", "generateOfferEfficiencyStats", "updateBrowserCache",
-    "expiringOffers"
+    "expiringOffers", "cronBuggedOffers", "unmarkedDeliveriesNotify", "resetRecipients", "sendCampaigns", "notifyWeek", "notifyMonth",
+    "notifyMissingDestinations", "markBouncedMails", "invalidateOrders", "generateSitemap", "fixOffersDestination", "generate.",
+    "fixAffiliateVouchers", "dailyMailsAgents", "dailyMailsAdmins", "cronBuggedStartingOffers", "cronBuggedAnnexes", "clearOldConvertRating",
+    "checkCampaigns", "autoSortOffers"
 };
 
 #define n_array (sizeof (keywords) / sizeof (const char *))
