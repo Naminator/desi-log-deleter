@@ -257,7 +257,7 @@ void * DeleteThread(void * args)
 
             if (GetLoad() >= 4) {
                 printf("Too much load (%f). Pausing...\n", serverLoad[0]);
-                sleep(10);
+                sleep(20);
             }
 
             // printf("Iterating once. File: %s\n", (char*)d->d_name);
