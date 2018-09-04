@@ -123,7 +123,7 @@ int main(int argc, char const *argv[])
 
                 RunDeleteThread();*/
 
-                while(GetLoad() >= 5)
+                while(GetLoad() >= 4)
                 {
                     sleep(3);
                     printf("Load remains high...won't resume.\n");
